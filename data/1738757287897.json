@@ -1,0 +1,551 @@
+{
+  "cartes": [
+    {
+      "nom": 4,
+      "nombre": 4,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 2,
+      "nombre": 2,
+      "forme": "Coeur",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": "A",
+      "nombre": 1,
+      "forme": "Coeur",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": 7,
+      "nombre": 7,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 5,
+      "nombre": 5,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 6,
+      "nombre": 6,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": "Q",
+      "nombre": 12,
+      "forme": "Coeur",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": 7,
+      "nombre": 7,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 10,
+      "nombre": 10,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 8,
+      "nombre": 8,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 8,
+      "nombre": 8,
+      "forme": "Coeur",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": 2,
+      "nombre": 2,
+      "forme": "Carreau",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": "Q",
+      "nombre": 12,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 10,
+      "nombre": 10,
+      "forme": "Coeur",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": "A",
+      "nombre": 1,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 9,
+      "nombre": 9,
+      "forme": "Carreau",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": 4,
+      "nombre": 4,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": "K",
+      "nombre": 13,
+      "forme": "Carreau",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": 2,
+      "nombre": 2,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 6,
+      "nombre": 6,
+      "forme": "Carreau",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": "A",
+      "nombre": 1,
+      "forme": "Carreau",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "red",
+      "estMouvement": false
+    },
+    {
+      "nom": "J",
+      "nombre": 11,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": "K",
+      "nombre": 13,
+      "forme": "Trefle",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    },
+    {
+      "nom": 2,
+      "nombre": 2,
+      "forme": "Pique",
+      "estRetournee": false,
+      "x": 0,
+      "y": 0,
+      "couleur": "black",
+      "estMouvement": false
+    }
+  ],
+  "tabColonnes": [
+    [
+      {
+        "nom": 5,
+        "nombre": 5,
+        "forme": "Pique",
+        "estRetournee": true,
+        "x": 492.5,
+        "y": 250,
+        "couleur": "black",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": "K",
+        "nombre": 13,
+        "forme": "Coeur",
+        "estRetournee": true,
+        "x": 622.5,
+        "y": 280,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": "A",
+        "nombre": 1,
+        "forme": "Pique",
+        "estRetournee": false,
+        "x": 622.5,
+        "y": 250,
+        "couleur": "black",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": 3,
+        "nombre": 3,
+        "forme": "Carreau",
+        "estRetournee": true,
+        "x": 752.5,
+        "y": 310,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": "Q",
+        "nombre": 12,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 752.5,
+        "y": 280,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 8,
+        "nombre": 8,
+        "forme": "Trefle",
+        "estRetournee": false,
+        "x": 752.5,
+        "y": 250,
+        "couleur": "black",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": 6,
+        "nombre": 6,
+        "forme": "Coeur",
+        "estRetournee": true,
+        "x": 882.5,
+        "y": 340,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 3,
+        "nombre": 3,
+        "forme": "Pique",
+        "estRetournee": false,
+        "x": 882.5,
+        "y": 310,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": 10,
+        "nombre": 10,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 882.5,
+        "y": 280,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": "K",
+        "nombre": 13,
+        "forme": "Pique",
+        "estRetournee": false,
+        "x": 882.5,
+        "y": 250,
+        "couleur": "black",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": 4,
+        "nombre": 4,
+        "forme": "Carreau",
+        "estRetournee": true,
+        "x": 1012.5,
+        "y": 370,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 10,
+        "nombre": 10,
+        "forme": "Trefle",
+        "estRetournee": false,
+        "x": 1012.5,
+        "y": 340,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": "J",
+        "nombre": 11,
+        "forme": "Coeur",
+        "estRetournee": false,
+        "x": 1012.5,
+        "y": 310,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": "Q",
+        "nombre": 12,
+        "forme": "Trefle",
+        "estRetournee": false,
+        "x": 1012.5,
+        "y": 280,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": 9,
+        "nombre": 9,
+        "forme": "Trefle",
+        "estRetournee": false,
+        "x": 1012.5,
+        "y": 250,
+        "couleur": "black",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": 3,
+        "nombre": 3,
+        "forme": "Trefle",
+        "estRetournee": true,
+        "x": 1142.5,
+        "y": 400,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": 3,
+        "nombre": 3,
+        "forme": "Coeur",
+        "estRetournee": false,
+        "x": 1142.5,
+        "y": 370,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 9,
+        "nombre": 9,
+        "forme": "Pique",
+        "estRetournee": false,
+        "x": 1142.5,
+        "y": 340,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": 8,
+        "nombre": 8,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 1142.5,
+        "y": 310,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 4,
+        "nombre": 4,
+        "forme": "Coeur",
+        "estRetournee": false,
+        "x": 1142.5,
+        "y": 280,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 7,
+        "nombre": 7,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 1142.5,
+        "y": 250,
+        "couleur": "red",
+        "estMouvement": false
+      }
+    ],
+    [
+      {
+        "nom": 9,
+        "nombre": 9,
+        "forme": "Coeur",
+        "estRetournee": true,
+        "x": 1272.5,
+        "y": 430,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": "J",
+        "nombre": 11,
+        "forme": "Pique",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 400,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": 6,
+        "nombre": 6,
+        "forme": "Trefle",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 370,
+        "couleur": "black",
+        "estMouvement": false
+      },
+      {
+        "nom": "J",
+        "nombre": 11,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 340,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 7,
+        "nombre": 7,
+        "forme": "Coeur",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 310,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 5,
+        "nombre": 5,
+        "forme": "Coeur",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 280,
+        "couleur": "red",
+        "estMouvement": false
+      },
+      {
+        "nom": 5,
+        "nombre": 5,
+        "forme": "Carreau",
+        "estRetournee": false,
+        "x": 1272.5,
+        "y": 250,
+        "couleur": "red",
+        "estMouvement": false
+      }
+    ]
+  ],
+  "tabFin": [
+    [],
+    [],
+    [],
+    []
+  ],
+  "cartePiocheSelectionne": null,
+  "carteColonnesSelectionne": null,
+  "carteFinSelectionne": null,
+  "cartePiocheEstSelectionne": false,
+  "sourisClic": false
+}
