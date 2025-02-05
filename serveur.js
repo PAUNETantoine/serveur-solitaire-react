@@ -13,7 +13,7 @@ app.use(bodyParser.json()); // Permet de lire le JSON envoyé par le client
 
 
 app.listen(PORT, () => {
-    console.log(`Serveur en écoute sur http://localhost:${PORT}`);
+    console.log(`Serveur en écoute sur http://serveur-solitaire-react-production.up.railway.app`);
 });
 
 
@@ -33,6 +33,7 @@ app.post("/api/data", (req, res) => {
             return res.status(500).json({ error: "Erreur d'écriture dans le fichier" });
         }
         res.json({ message: "Données bien enregistrées !", file: fileName });
+        console.log("Nouvelle partie gagnante enregistrée !")
     });
 });
 
