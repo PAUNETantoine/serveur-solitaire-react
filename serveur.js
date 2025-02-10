@@ -3,7 +3,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const fs = require("fs");
 const path = require("path");
-require("dotenv").config();
+//require("dotenv").config();
 const { Pool } = require("pg");
 const bcrypt = require('bcrypt');
 
