@@ -3,7 +3,7 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 const fs = require("fs");
 const path = require("path");
-//require("dotenv").config();
+require("dotenv").config();
 const { Pool } = require("pg");
 const bcrypt = require('bcrypt');
 
@@ -151,6 +151,48 @@ app.post("/api/ajouterDefaite", async (req, res) => {
         res.status(500).json({ error: "Erreur serveur" });
     }
 });
+
+
+app.post("/api/recevoirData", async (req, res) => {
+    const { nomUtilisateur } = req.body;
+
+    const ip = req.headers["x-forwarded-for"] || req.socket.remoteAddress;
+
+    try {
+        const result = await pool.query('SELECT * FROM utilisateurs WHERE "nomUtilisateur" = $1', [nomUtilisateur]);
+
+        if (result.rows.length === 0) {
+            return res.status(400).json({ error: "Nom d'utilisateur inconnu." });
+        }
+
+        const user = result.rows[0];
+
+        if (user.IP !== ip) {
+            return res.status(403).json({ error: "Vous n'êtes pas connecté à ce compte." });
+        }
+
+        const statsResult = await pool.query('SELECT "meilleurTemps","nbVictoires","nbDefaites" FROM utilisateurs WHERE id = $1', [user.id]);
+
+        // Si les statistiques existent, on les renvoie
+        const statsVal = statsResult.rows[0];
+
+        const responseObj = {
+            message: 'Données reçues',
+            stats: {
+              nbVictoires: statsVal.nbVictoires,
+              nbDefaites: statsVal.nbDefaites,
+              meilleurTemps: statsVal.meilleurTemps
+            }
+        };
+
+        res.status(200).json(responseObj);
+
+    }catch (error)
+    {
+        console.error("Erreur serveur :", error);
+        res.status(500).json({ error: "Erreur serveur" });
+    }
+})
 
 
 app.post('/api/connexion', async (req, res) => {
