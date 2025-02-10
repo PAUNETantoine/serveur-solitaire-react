@@ -16,12 +16,12 @@ app.use(bodyParser.json()); // Permet de lire le JSON envoyé par le client
 
 app.listen(PORT, () => {
     console.log(`Serveur en écoute sur local host : 5000`);
-    console.log(process.env.SUPABASE_DB_URL)
+    console.log(process.env.SUPABASE_DB_URL.replace('postgres://', 'postgres://tcp4:'))
 });
 
 
 const pool = new Pool({
-    connectionString: process.env.SUPABASE_DB_URL,
+    connectionString: process.env.SUPABASE_DB_URL.replace('postgres://', 'postgres://tcp4:'),
     ssl: { rejectUnauthorized: false }, // Supabase nécessite SSL
 });
 
