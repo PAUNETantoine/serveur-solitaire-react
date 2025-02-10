@@ -16,6 +16,7 @@ app.use(bodyParser.json()); // Permet de lire le JSON envoyé par le client
 
 app.listen(PORT, () => {
     console.log(`Serveur en écoute sur local host : 5000`);
+    console.log(process.env.SUPABASE_DB_URL)
 });
 
 
